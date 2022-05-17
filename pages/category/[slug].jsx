@@ -1,6 +1,6 @@
 import React from "react";
 
-import { getCategories, getCategoryPost } from "../../services";
+import { getCategories, getCategoryPost } from "../../services/index";
 import { PostCard, Categories } from "../../components";
 
 const CategoryPost = ({ posts }) => {
